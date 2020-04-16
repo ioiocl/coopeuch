@@ -8,6 +8,11 @@ Bases de datos : H2
 mvn install
 cd target
 java -jar rest-demo-0.0.1-SNAPSHOT.jar
+```
+> mvn install
+> cd target
+> java -jar rest-demo-0.0.1-SNAPSHOT.jar
+```
 
 
 # Para instalar el Front  ir a la carpeta front-end y ejecutar los siguientes comandos
