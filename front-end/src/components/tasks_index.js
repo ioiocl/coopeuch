@@ -15,7 +15,7 @@ class TasksIndex extends Component {
       return (
         <li className="list-group-item" key={task.id}>
           <Link to={`/tasks/${task.id}`}>
-            {task.description} - {moment(task.date).format('DD-MM-YYYY')}
+                        {task.description} - {moment(task.date).format('DD-MM-YYYY')}                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       EDITAR
           </Link>
         </li>
       );
